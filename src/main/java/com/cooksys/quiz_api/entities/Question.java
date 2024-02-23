@@ -22,6 +22,8 @@ public class Question {
   private Long id;
 
   private String text;
+  
+  private boolean deleted;
 
   @ManyToOne
   @JoinColumn(name = "quiz_id")
